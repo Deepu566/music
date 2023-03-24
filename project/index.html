@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audiophile</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li class="brand"><img src="audiophile5.jpg" alt="Audiophile">It's more than just music</li>
+            <li><input type="search" name="search" id="search" placeholder="search song"></li>
+            <li><a href="logout.html"><input type="button" class="logout_btn" value="Logout" id="reg"></a></li>
+
+        </ul>
+    </nav>
+    <nav class="homepage">
+        <ul>
+            <li><a href="" id="text">Home</a></li>
+            <li> <a href="#trending" id="text">Trending songs</a> </li>
+            <li><a href="#album" id="text">Album</a></li>
+            <li><a href="#new" id="text">New songs</a></li>
+            <li><a href="#artist" id="text">Artist</a></li>
+            <li><a href="#about" id="text">About Us</a></li>
+        </ul>
+    </nav>
+    <!-- start first slider -->
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+
+        <!-- Next and previous buttons -->
+    </div>
+    <a class="prev changeSlide" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next changeSlide" onclick="plusSlides(1)">&#10095;</a>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+    </div>
+    <!-- progressbar -->
+    <div class="progressBottom">
+        <div class="bottom">
+            <img class="closeBar" src="http://cdn.onlinewebfonts.com/svg/img_143166.png" alt="">
+            <!-- <input type="range" name="range" id="myProgressBar" min="0" max="100"> -->
+            <div class="musicInfo">
+                <img class="barImage" src="kaka.jpeg" alt="">
+                <h1 class="barName">pathan</h1>
+            </div>
+            <div class="progressBar">
+                <div class="progress"></div>
+            </div>
+            <img class="barControl" src="pause.svg" alt="">
+        </div>
+    </div>
+
+
+    <!-- trending song slider -->
+    <h3 id="trending">Trending songs</h3>
+    <div class="trending">
+
+        <!-- <div id="trend"><img src="trendig2.jpeg" alt=""></div>
+        <div id="trend"><img src="trending3.jpeg" alt=""></div>
+        <div id="trend"><img src="trending4.jpeg" alt=""></div>
+        <div id="trend"><img src="trending5.jpeg" alt=""></div> -->
+    </div>
+    <!-- new songs -->
+    <h3 id="new">New songs</h3>
+    <div class="new">
+        <!-- <div id="newsong"><img src="new1.jpeg" alt=""></div>
+        <div id="newsong"><img src="new3.jpeg" alt=""></div>
+        <div id="newsong"><img src="new4.jpeg" alt=""></div>
+        <div id="newsong"><img src="new5.jpeg" alt=""></div> -->
+    </div>
+    <!-- album -->
+    <h3 id="album">Album</h3>
+    <div class="album">
+        <div id="albumsong"><img src="album1.jpeg" alt=""></div>
+        <div id="albumsong"><img src="album2.jpeg" alt=""></div>
+        <div id="albumsong"><img src="album3.jpeg" alt=""></div>
+        <div id="albumsong"><img src="album4.jpeg" alt=""></div>
+        <div id="albumsong"><img src="album5.jpeg" alt=""></div>
+    </div>
+    <!-- artist -->
+    <h3 id="artist">Artist</h3>
+    <div class="artist">
+        <div id="arijit"><a href="arijit/musicPlayer/arijit.html"><img src="arjit.jpeg" alt=""></a></div>
+        <div id="badshah"><a href="badhsah/musicPlayer/badshahpage.html"><img src="badshah.jpeg" alt=""></a></div>
+        <div id="honey"><a href="hs/musicPlayer/honey.html"><img src="honey.jpeg" alt=""></a></div>
+        <div id="kaka"><a href="kaka/musicPlayer/kaka.html"><img src="kaka.jpeg" alt=""></a></div>
+        <div id="shreya"><a href="shreya/musicPlayer/shreya.html"><img src="shreya.jpeg" alt=""></a></div>
+    </div>
+    <div class="artistname">
+
+        <div>Arijit Singh</div>
+        <div>Badshah</div>
+        <div>Honey Singh</div>
+        <div> &nbsp&nbsp&nbspKaka </div>
+        <div>Shreya Ghosal</div>
+    </div>
+    <div id="about">
+        <h3>About Us</h3>
+        <h3>It's more than just music</h3>
+        <p style="color:red;">Audiophile is the one-stop solution for all your music needs. Audiophile offers you free,
+            unlimited access to Hindi Songs, Bollywood Music, English MP3 songs, Regional Music & Mirchi Play</p>
+    </div>
+
+    <script src="newSongs.js"></script>
+    <script src="index1.js"></script>
+    <script src="trending.js"></script>
+    <script src="https://kit.fontawesome.com/20597a8b6b.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
